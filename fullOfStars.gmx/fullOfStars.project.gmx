@@ -10,8 +10,8 @@
     <sprite>sprites\sprite0_spr_player_down_strip6</sprite>
     <sprite>sprites\sprite3_spr_player_up_strip6</sprite>
     <sprite>sprites\sprite2_spr_player_left_strip6</sprite>
-    <sprite>sprites\sprite4</sprite>
-    <sprite>sprites\sprite5</sprite>
+    <sprite>sprites\spr_Obstaculo</sprite>
+    <sprite>sprites\spr_sombra</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>

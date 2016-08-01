@@ -107,7 +107,9 @@ if (keyboard_check(vk_nokey)){
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>x += 0;
+            <string>/// Cuando choca con un obstaculo
+
+x += 0;
 y += 0;
 </string>
           </argument>
@@ -131,7 +133,9 @@ y += 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_sprite(sprite5, image_index, x, y);
+            <string>/// Redibujando sprite
+
+draw_sprite(spr_sombra, image_index, x, y);
 draw_self();
 </string>
           </argument>

@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>/// Instancia
 
-velocidad = 4;
+velocidad = 2;
 friction = .25;
 image_speed = 0;
 </string>
@@ -61,17 +61,29 @@ izquierda = keyboard_check(vk_left);
 
 // Derecha || Izquierda
 if (derecha) {
-    x += 3;
+    x += velocidad;
+    sprite_index = sprite1_spr_player_right_strip6;
+    image_speed = .2;
 }
 if (izquierda) {
-    x -= 3;
+    x -= velocidad;
+    sprite_index = sprite2_spr_player_left_strip6;
+    image_speed = .2;
 }
 // Arriba || Abajo
 if (arriba) {
-    y -= 3;
+    y -= velocidad;
+    sprite_index = sprite3_spr_player_up_strip6;
+    image_speed = .2;
 }
 if (abajo) {
-    y += 3;
+    y += velocidad;
+    sprite_index = sprite0_spr_player_down_strip6;
+    image_speed = .2;
+}
+if (keyboard_check(vk_nokey)){
+    image_speed = 0;
+    image_index = 0;
 }
 </string>
           </argument>
@@ -97,6 +109,30 @@ if (abajo) {
             <kind>1</kind>
             <string>x += 0;
 y += 0;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>draw_sprite(sprite5, image_index, x, y);
+draw_self();
 </string>
           </argument>
         </arguments>

@@ -60,7 +60,7 @@
     <instance objName="obj_Obstaculo" x="416" y="32" name="inst_7E2A61E0" locked="0" code="" scaleX="2" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="obj_Obstaculo" x="64" y="32" name="inst_8C5D9CE4" locked="0" code="" scaleX="2" scaleY="4" colour="4294967295" rotation="0"/>
     <instance objName="obj_Obstaculo" x="192" y="192" name="inst_B0BEA59B" locked="0" code="" scaleX="2" scaleY="4" colour="4294967295" rotation="0"/>
-    <instance objName="obj_PJ" x="352" y="160" name="inst_097A9EAB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_PJ" x="544" y="192" name="inst_097A9EAB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Aldeano" x="448" y="224" name="inst_236414D6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>

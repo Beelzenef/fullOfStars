@@ -28,8 +28,7 @@
             <string>/// Instancia de aldeano
 
 image_speed = 0;
-velocidad = 2;
-enum direcciones { izquierda, derecha, quieto };
+enum direcciones { izquierda, derecha, arriba, abajo };
 alarm[0]= random(60);
 </string>
           </argument>
@@ -53,25 +52,19 @@ alarm[0]= random(60);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>elegirTipo = choose(direcciones.izquierda, direcciones.derecha, direcciones.quieto);
+            <string>elegirTipo = choose(direcciones.izquierda, direcciones.derecha, direcciones.arriba, direcciones.abajo);
 
 if (elegirTipo == direcciones.izquierda) {
-    for (i = 0; i &lt; 3; i++) {
-        x -= velocidad;
-    }
-    image_speed = .2;
     sprite_index = sprite2_spr_player_left_strip6;
 }
 if (elegirTipo == direcciones.derecha) {
-    for (i = 0; i &lt; 3; i++) {
-        x += velocidad;
-    }
-    image_speed = .2;
     sprite_index = sprite1_spr_player_right_strip6;
 }
-if (elegirTipo == direcciones.quieto) {
-    image_speed = 0;
-    image_index = 0;
+if (elegirTipo == direcciones.arriba) {
+    sprite_index = sprite3_spr_player_up_strip6;
+}
+if (elegirTipo == direcciones.abajo) {
+    sprite_index = sprite0_spr_player_down_strip6;
 }
 
 alarm[0]= random(60);

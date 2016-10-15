@@ -13,6 +13,7 @@
     <sprite>sprites\spr_Obstaculo</sprite>
     <sprite>sprites\spr_sombra</sprite>
     <sprite>sprites\sprite6</sprite>
+    <sprite>sprites\sprite7</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -21,6 +22,7 @@
     <object>objects\obj_Transporte</object>
     <object>objects\obj_PJ</object>
     <object>objects\obj_Aldeano</object>
+    <object>objects\obj_Pickup</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_Inicio</room>

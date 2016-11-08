@@ -63,6 +63,9 @@
     <instance objName="obj_PJ" x="224" y="96" name="inst_097A9EAB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Aldeano" x="448" y="224" name="inst_236414D6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Transporte" x="128" y="32" name="inst_BBA6A62B" locked="0" code="habObjetivo = rm_Guarida;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Pickup" x="96" y="192" name="inst_FF822226" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Pickup" x="352" y="160" name="inst_62A4C3D5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Inventario" x="128" y="288" name="inst_B19934B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

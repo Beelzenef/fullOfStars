@@ -17,12 +17,14 @@
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts"/>
   <objects name="objects">
     <object>objects\obj_Obstaculo</object>
     <object>objects\obj_Transporte</object>
     <object>objects\obj_PJ</object>
     <object>objects\obj_Aldeano</object>
     <object>objects\obj_Pickup</object>
+    <object>objects\obj_Inventario</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_Inicio</room>
